@@ -1,0 +1,96 @@
+#lucas {
+    width: 25%;
+}
+
+.caixa {
+    position: relative;           
+    width: 940px;
+    margin: 0 auto;
+}
+
+header {
+    background: #BBBBBB;
+    font-weight: bold;
+    padding: 20px 0;
+}
+
+nav {
+    position: absolute;
+    top: 80px;
+    right: 100px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: rgb(243, 150, 255);
+    text-decoration: underline;
+}
+
+#mala {
+   width: 200px;
+}
+
+#valo {
+    width: 200px;
+}
+
+.P {
+    width: 940px;
+    margin: 0 auto;  
+    padding: 50px 0;        
+}
+
+.P li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 8.8%;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    border-color: #000000;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 100px;
+}
+
+.P h2 {
+    font-size: 25px;
+    font-weight: bold;            
+}
+
+.P li:hover {
+    border-color: rgb(255, 245, 103);
+    font-size: 20px;
+}
+
+.P li:active {
+    border-color: blue;
+}
+
+footer {
+    text-align: center;
+    background: url(istockphoto-1345203265-612x612.jpg);
+    padding: 30px 30px;
+}
+
+#T {
+    width: 15%;       
+}
+
+.copyright {
+    color: whitesmoke;
+    font-size: 12px;
+    margin: 20px 0 0
+}
